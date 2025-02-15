@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Image` component with a URI that has been cached by the browser.  The image may fail to load, even if the URI is correct and accessible. This is particularly problematic on Android devices, where the browser's cache may not always be updated correctly.
